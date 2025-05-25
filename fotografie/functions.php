@@ -289,7 +289,7 @@ if ( ! function_exists( 'fotografie_fonts_url' ) ) :
 		if ( 'off' !== esc_html_x( 'on', 'Montserrat font: on or off', 'fotografie' ) ) {
 			// Load google font locally.
 			require_once get_theme_file_path( 'inc/wptt-webfont-loader.php' );
-	
+
 			return esc_url( wptt_get_webfont_url( 'https://fonts.googleapis.com/css?family=Montserrat:300,300i,700,700i' ) );
 		}
 	}
@@ -301,7 +301,8 @@ endif;
 function fotografie_scripts() {
 	wp_enqueue_style( 'fotografie-fonts', fotografie_fonts_url(), array(), null );
 
-	wp_enqueue_style( 'font-awesome', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'assets/css/font-awesome.css', array(), '4.7.0', 'all' );
+	// FontAwesome.
+	wp_enqueue_style( 'font-awesome', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'assets/css/font-awesome/css/all.min.css', array(), '6.7.2', 'all' );
 
 	wp_enqueue_style( 'fotografie-style', get_stylesheet_uri(), null, date( 'Ymd-Gis', filemtime( get_template_directory() . '/style.css' ) ) );
 

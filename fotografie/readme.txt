@@ -1,8 +1,8 @@
 === Fotografie ===
 Contributors: catchthemes
 Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-logo, custom-header, custom-menu, editor-style, featured-image-header, featured-images, footer-widgets, rtl-language-support, translation-ready, blog, photography, portfolio
-Requires at least: 5.6
-Tested up to: 6.6
+Requires at least: 5.9
+Tested up to: 6.8
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -41,7 +41,12 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
 
-= 2.4.3 (Released: June 13, 2024) =
+= 2.5 (Released: May 25, 2025) =
+* Added: Twitter X, TikTok and Bluesky icons
+* Updated: Font Awesome to version 6.7.2
+* Updated: WordPress 6.8 ready
+
+= 2.4.3 (Released: October 09, 2024) =
 * Bug Fixed: Sub-menu issue
 * Bug Fixed: Escaping author display name
 * Updated: WordPress 6.6 ready
@@ -248,7 +253,7 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Copyright ==
 
-Fotografie Pro WordPress Theme, Copyright 2012-2023 Catchthemes.com
+Fotografie Pro WordPress Theme, Copyright 2012-2025 Catchthemes.com
 Fotografie Pro is distributed under the terms of the GNU GPL v3
 
 == Resources ==

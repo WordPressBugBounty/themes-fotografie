@@ -4,9 +4,9 @@ Theme URI: https://catchthemes.com/themes/fotografie/
 Author: Catch Themes
 Author URI: https://catchthemes.com/
 Description: Fotografie is a modern Photography WordPress Theme that comes with high-quality features and minimal design. True to the essence of the German word, Fotografie is simple, elegant and straightforward WordPress theme to showcase your photography. It is ideal for creating photography websites for Photographers, Graphic Designers, Freelancers, Artists, or Bloggers. It comes with basic features that are extremely crucial, like header media options, hero content, portfolio, featured content, color options and menu options to create a simple and elegant website in no time. Designed to make your photographs stand out with clear, easy to read content, Fotografie has it all to take your photoblogs to the next level. Fotografie stands out in the respect that it puts your photographs in the limelight while doing all the important background work. Showcase to the world what's important - your Fotografie. This theme is translation ready. For more details, check out the Theme Instructions at https://catchthemes.com/theme-instructions/fotografie/ and Support forum at https://catchthemes.com/support-forum/forum/fotografie-free/.
-Version: 2.4.3
-Requires at least: 5.6
-Tested up to: 6.6
+Version: 2.5
+Requires at least: 5.9
+Tested up to: 6.8
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -16,7 +16,7 @@ Tags: one-column, two-columns, left-sidebar,  flexible-header, custom-background
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-Fotografie is created by the theme generator at http://components.underscores.me/, (C) 2015-2016 Automattic, Inc.
+Fotografie is created by the theme generator at http://components.underscores.me/, (C) 2015-2025 Automattic, Inc.
 Components is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
@@ -592,14 +592,41 @@ blockquote:before {
 .comment-list .reply a:before,
 #scrollup:before {
   display: inline-block;
-  font-family: 'FontAwesome';
   font-style: normal;
   font-variant: normal;
-  font-weight: normal;
   line-height: 1;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.wp-custom-header-video-button:before,
+.search-toggle:before,
+.widget-area .widget_search .search-submit:before,
+.menu-toggle:before,
+.main-navigation .menu-item-has-children > a:after,
+.main-navigation .page_item_has_children > a:after,
+.dropdown-toggle:after,
+.mobile-search-wrapper .search-submit:before,
+#feature-slider .cycle-prev:before,
+#feature-slider .cycle-next:before,
+.entry-breadcrumbs a:after,
+.comment-list .reply a:before,
+#scrollup:before {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+}
+
+.social-navigation a:before {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
+
+.social-navigation a[href*="mailto:"]:before,
+.social-navigation a[href*="tel:"]:before,
+.social-navigation a[href$="/feed"]:before {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
 }
 
 .search-toggle:before,
@@ -1418,6 +1445,10 @@ tr {
   content: "\f174";
 }
 
+.social-navigation a[href*="x.com"]:before {
+  content: "\e61b";
+}
+
 .social-navigation a[href*="twitter.com"]:before {
   content: "\f099";
 }
@@ -1447,10 +1478,6 @@ tr {
   content: "\f1e8";
 }
 
-.social-navigation a[href$="/feed/"]:before {
-  content: "\f09e";
-}
-
 .social-navigation a[href*="amazon.com"]:before {
   content: "\f270";
 }
@@ -1473,6 +1500,23 @@ tr {
 
 .social-navigation a[href*="etsy.com"]:before {
   content: "\f2d7";
+}
+
+.social-navigation a[href*="tiktok.com"]:before {
+  content: "\e07b";
+}
+
+.social-navigation a[href*="bluesky.com"]:before,
+.social-navigation a[href*="bsky.app"]:before {
+  content: "\e671";
+}
+
+.social-navigation a[href$="/feed"]:before {
+  content: "\f09e";
+}
+
+.social-navigation a[href*="tel:"]:before {
+  content: "\f095";
 }
 
 /*--------------------------------------------------------------
