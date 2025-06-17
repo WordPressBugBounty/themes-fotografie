@@ -41,6 +41,9 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
 
+= 2.5.1 (Released: June 17, 2025) =
+* Added: Threads, Telegram, Discord, Line, Xing and Vk icons
+
 = 2.5 (Released: May 25, 2025) =
 * Added: Twitter X, TikTok and Bluesky icons
 * Updated: Font Awesome to version 6.7.2

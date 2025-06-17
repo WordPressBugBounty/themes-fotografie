@@ -4,7 +4,7 @@ Theme URI: https://catchthemes.com/themes/fotografie/
 Author: Catch Themes
 Author URI: https://catchthemes.com/
 Description: Fotografie is a modern Photography WordPress Theme that comes with high-quality features and minimal design. True to the essence of the German word, Fotografie is simple, elegant and straightforward WordPress theme to showcase your photography. It is ideal for creating photography websites for Photographers, Graphic Designers, Freelancers, Artists, or Bloggers. It comes with basic features that are extremely crucial, like header media options, hero content, portfolio, featured content, color options and menu options to create a simple and elegant website in no time. Designed to make your photographs stand out with clear, easy to read content, Fotografie has it all to take your photoblogs to the next level. Fotografie stands out in the respect that it puts your photographs in the limelight while doing all the important background work. Showcase to the world what's important - your Fotografie. This theme is translation ready. For more details, check out the Theme Instructions at https://catchthemes.com/theme-instructions/fotografie/ and Support forum at https://catchthemes.com/support-forum/forum/fotografie-free/.
-Version: 2.5
+Version: 2.5.1
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 5.6
@@ -1517,6 +1517,31 @@ tr {
 
 .social-navigation a[href*="tel:"]:before {
   content: "\f095";
+}
+
+.social-navigation li a[href*="threads.com"]:before {
+  content: "\e618";
+}
+
+.social-navigation li a[href*="line.me"]:before {
+  content: "\f3c0";
+}
+
+.social-navigation li a[href*="discord.com"]:before,
+.social-navigation li a[href*="discord.gg"]:before {
+  content: "\f392";
+}
+
+.social-navigation li a[href*="t.me"]:before {
+  content: "\f2c6";
+}
+
+.social-navigation li a[href*="vk.com"]:before {
+  content: "\f189";
+}
+
+.social-navigation li a[href*="xing.com"]:before {
+  content: "\f168";
 }
 
 /*--------------------------------------------------------------
