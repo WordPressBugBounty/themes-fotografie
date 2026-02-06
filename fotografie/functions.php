@@ -302,7 +302,7 @@ function fotografie_scripts() {
 	wp_enqueue_style( 'fotografie-fonts', fotografie_fonts_url(), array(), null );
 
 	// FontAwesome.
-	wp_enqueue_style( 'font-awesome', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'assets/css/font-awesome/css/all.min.css', array(), '6.7.2', 'all' );
+	wp_enqueue_style( 'fontawesome', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'assets/css/font-awesome/css/all.min.css', array(), '6.7.2', 'all' );
 
 	wp_enqueue_style( 'fotografie-style', get_stylesheet_uri(), null, date( 'Ymd-Gis', filemtime( get_template_directory() . '/style.css' ) ) );
 
