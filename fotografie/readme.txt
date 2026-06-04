@@ -2,7 +2,7 @@
 Contributors: catchthemes
 Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-logo, custom-header, custom-menu, editor-style, featured-image-header, featured-images, footer-widgets, rtl-language-support, translation-ready, blog, photography, portfolio
 Requires at least: 5.9
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -40,6 +40,9 @@ You can check our Theme Demo at https://catchthemes.com/demo/fotografie/
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
+
+= 2.5.4 (Released: June 04, 2026) =
+* Updated: WordPress 7.0 ready
 
 = 2.5.3 (Released: January 20, 2026) =
 * Bug Fixed: Font Awesome issue with the Elementor Plugin
@@ -262,7 +265,7 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Copyright ==
 
-Fotografie Pro WordPress Theme, Copyright 2012-2025 Catchthemes.com
+Fotografie Pro WordPress Theme, Copyright 2012-2026 Catchthemes.com
 Fotografie Pro is distributed under the terms of the GNU GPL v3
 
 == Resources ==
