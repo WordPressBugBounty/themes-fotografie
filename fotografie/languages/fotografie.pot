@@ -1,11 +1,11 @@
-# <!=Copyright (C) 2025 Catch Themes
+# <!=Copyright (C) 2026 Catch Themes
 # This file is distributed under the GNU General Public License v3 or later.=!>
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Fotografie\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2026-06-04 21:58+0545\n"
+"POT-Creation-Date: 2026-10-10 18:23+0545\n"
 "PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Catch Themes <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
